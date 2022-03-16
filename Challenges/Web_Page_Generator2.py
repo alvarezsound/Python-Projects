@@ -23,7 +23,8 @@ class ParentWindow(Frame):
 
         # open file function
         def open_file():
-            webbrowser.open_new_tab('new.html')
+            url = 'new.html'
+            webbrowser.open_new_tab(url)
             print("html file opened successfully!")
 
         # close window function
