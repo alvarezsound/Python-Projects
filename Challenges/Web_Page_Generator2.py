@@ -11,7 +11,7 @@ class ParentWindow(Frame):
 
         self.master = master
         self.master.resizable(width=False, height=False)
-        self.master.geometry('{}x{}'.format(500, 500))
+        self.master.geometry('{}x{}'.format(600, 600))
         self.master.title('Create HTML page')
         self.master.config(bg='lightgray')
 
