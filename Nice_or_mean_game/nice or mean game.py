@@ -6,8 +6,6 @@
 # Purpose: Nice and Mean game
 #
 
-from PIL import Image
-
 def start(nice=0 ,mean=0 ,name=""):
     # get users name
     name = describe_game(name)
