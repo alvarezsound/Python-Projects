@@ -75,11 +75,13 @@ def transaction(request):
     return render(request, 'checkbook/AddTransaction.html', content)
 ```
 
-![Checkbook](/Images/Checkbook_CreateAccount.png)
+![Checkbook 1](/Images/Checkbook_Home.png)
 
-![Checkbook](/Images/Checkbook_AddTransaction.png)
+![Checkbook 2](/Images/Checkbook_CreateAccount.png)
 
-![Checkbook](/Images/Checkbook_ViewTransactions.png)
+![Checkbook 3](/Images/Checkbook_AddTransaction.png)
+
+![Checkbook 4](/Images/Checkbook_ViewTransactions.png)
 
 ## Python Assignments
 Various assignments and exercises used to build familiarity with python.
