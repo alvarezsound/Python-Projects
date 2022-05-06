@@ -10,14 +10,17 @@ This is the repository for all of my Python course projects! Click the links bel
 - <a href="https://github.com/alvarezsound/Python-Projects/tree/main/Python_Challenges" target="_blank">Python Challenges</a>
 ## Phonebook
 This project functions as a phone book for a user. It saves a contact's name, phone number, and email address in a database and allows the user to update and delete previously stored entries.
+
 ![Phonebook](/Images/Phonebook.png)
 ## Check Files GUI
 This project allows the user to transfer all files from one chosen directory to another that have been modified within 24 hours. All files that are moved will be saved in a database.
+
 ![Check Files GUI](/Images/Check_Files_GUI.png)
 ## Nice or Mean Game
 Simple game that utilizes python functions. Player enters their name and then is prompted with a scenario for which they need to choose to be nice or mean. Nice or mean choices are scored and player wins when reaching the score of 3 "Nice" and loses when reaching a score of 3 "Mean".
 ## Student Tracker
 Student information tracker that utilizes python, sqlite3, and tkinter. Fully functioning GUI that allows you to insert a students information and submit into a database. You can also update and delete existing information.
+
 ![Student Tracker](/Images/Student_Tracker.png)
 ## Checkbook (Django)
 Checkbook/banking website created using Django. Users can create an account(s) and view/add transactions. Finally, the transactions are stored in a database.
