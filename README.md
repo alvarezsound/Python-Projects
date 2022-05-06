@@ -74,6 +74,13 @@ def transaction(request):
     content = {'form': form}
     return render(request, 'checkbook/AddTransaction.html', content)
 ```
+
+![Checkbook](/Images/Checkbook_CreateAccount.png)
+
+![Checkbook](/Images/Checkbook_AddTransaction.png)
+
+![Checkbook](/Images/Checkbook_ViewTransactions.png)
+
 ## Python Assignments
 Various assignments and exercises used to build familiarity with python.
 ## Python Challenges
