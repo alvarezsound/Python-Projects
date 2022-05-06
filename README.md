@@ -35,7 +35,8 @@ def home(request):
         return balance(request, pk)
     content = {'form': form}
     return render(request, 'checkbook/index.html', content)
-
+```
+```cs
 def create_account(request):
     form = AccountForm(data=request.POST or None)
     if request.method == 'POST':
@@ -44,7 +45,8 @@ def create_account(request):
             return redirect('index')
     content = {'form': form}
     return render(request, 'checkbook/CreateNewAccount.html', content)
-
+```
+```cs
 def balance(request, pk):
     account = get_object_or_404(Account, pk=pk)
     transactions = Transaction.Transaction.filter(account = pk)
@@ -59,7 +61,8 @@ def balance(request, pk):
             table_contents.update({t: current_total})
     content = {'account': account, 'table_contents': table_contents, 'balance': current_total}
     return render(request, 'checkbook/BalanceSheet.html', content)
-
+```
+```cs
 def transaction(request):
     form = TransactionForm(data=request.POST or None)
     if request.method == 'POST':
